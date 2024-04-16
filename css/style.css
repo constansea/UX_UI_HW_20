@@ -79,9 +79,18 @@ body {
 .nav-link.active {
     font-weight: ;
   }
-.section {
-    min-height: 500px; /* Adjust as needed */
-  }
+
+.headingImage0 {
+    background-image: url(../images/beeheadingbg.png);
+    background-size: cover;
+    background-position: top;
+}
+
+.headingImage1 {
+    background-image: url(../images/beeheadingbg1.png);
+    background-size: cover;
+    background-position: center;
+}
 
 .test {
     display: block;
