@@ -1,0 +1,80 @@
+.MyLogo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.nav-item {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+body, html{
+    margin: 0;
+}
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 0 !important;
+    padding: 0px 20px !important;
+}
+
+h1{
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 45px;
+    font-weight: 800 !important;
+    line-height: 63px;
+    letter-spacing: 0.5px;
+}
+
+h5{
+    font-family: "Poppins", sans-serif;
+    color: #00746D !important;
+    font-size: 21px !important;
+    font-weight: 500;
+    line-height: 40px !important;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 800 !important;
+    line-height: 30px !important;
+    color: black;
+    padding-bottom: 20px;
+}
+
+p{
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px !important;
+    line-height: 1.9em;
+    margin-bottom: 0 !important;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 70px;
+    padding-left: 0px !important;
+}
+li {
+    display: flex;
+    align-items: center;
+}
+
+
+body {
+    position: relative;
+  }
+.nav-link {
+    color: #333;
+  }
+.nav-link:hover {
+    color: #007bff;
+  }
+.nav-link.active {
+    font-weight: ;
+  }
+.section {
+    min-height: 500px; /* Adjust as needed */
+  }
