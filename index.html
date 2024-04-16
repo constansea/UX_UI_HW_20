@@ -39,39 +39,46 @@
     </header>
 
     <!-- Side-by-Side Layout -->
-    <div class="container-fluid">
+    <div class="container">
         <div class="row">
-        <!-- Navigation Pills -->
-        <div class="col-md-2">
-            <ul class="nav flex-column nav-pills" id="navbarNav">
-            <li class="nav-item">
-                <a class="nav-link" href="#section1">Section 1</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#section2">Section 2</a>
-            </li>
-            <!-- Add more sections as needed -->
+          <!-- Side navigation -->
+          <div class="col-md-2">
+            <ul class="nav flex-column sticky-pills">
+              <li class="nav-item">
+                <a class="nav-link" href="#section1">Introduction</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#section2">Research</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#section3">The Problem</a>
+              </li>
             </ul>
-        </div>
-        <!-- Sections -->
-        <div class="col-md-10">
-            <section id="section1" class="section bg-light">
-            <div class="container">
-                <h5>Maryland Beekeeper's Association: A Website Redesign</h5>
-                <!-- Add content for section 1 -->
+          </div>
+          
+          <!-- Main content -->
+          <div class="col-md-10">
+            <div id="section1">
+              <h2>Section 1</h2>
+              <p>This is the content of Section 1.</p>
+              <div class="test">test</div>
             </div>
-            </section>
-  
-            <section id="section2" class="section bg-light">
-            <div class="container">
-                <h2>Section 2</h2>
-                <!-- Add content for section 2 -->
+            
+            <div id="section2">
+              <h2>Section 2</h2>
+              <p>This is the content of Section 2.</p>
+              <div class="test">test</div>
+              <div class="test">test</div>
+
             </div>
-            </section>
-            <!-- Add more sections as needed -->
+            
+            <div id="section3">
+              <h2>Section 3</h2>
+              <p>This is the content of Section 3.</p>
+            </div>
+          </div>
         </div>
-        </div>
-    </div>
+      </div>
           
 
 <!-- Bootstrap JS and jQuery (Make sure to include jQuery before Bootstrap JS) -->

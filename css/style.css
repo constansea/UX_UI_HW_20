@@ -62,6 +62,10 @@ li {
     align-items: center;
 }
 
+.sticky-pills {
+    position: sticky;
+    top: 20px;
+}
 
 body {
     position: relative;
@@ -70,7 +74,7 @@ body {
     color: #333;
   }
 .nav-link:hover {
-    color: #007bff;
+    color: #00746D;
   }
 .nav-link.active {
     font-weight: ;
@@ -78,3 +82,9 @@ body {
 .section {
     min-height: 500px; /* Adjust as needed */
   }
+
+.test {
+    display: block;
+    height: 500px;
+    background-color: #000000;
+}
